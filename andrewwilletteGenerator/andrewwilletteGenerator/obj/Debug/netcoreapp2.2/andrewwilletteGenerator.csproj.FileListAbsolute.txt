@@ -1,0 +1,11 @@
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\bin\Debug\netcoreapp2.2\andrewwilletteGenerator.deps.json
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\bin\Debug\netcoreapp2.2\andrewwilletteGenerator.runtimeconfig.json
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\bin\Debug\netcoreapp2.2\andrewwilletteGenerator.runtimeconfig.dev.json
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\bin\Debug\netcoreapp2.2\andrewwilletteGenerator.dll
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\obj\Debug\netcoreapp2.2\andrewwilletteGenerator.csprojAssemblyReference.cache
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\obj\Debug\netcoreapp2.2\andrewwilletteGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\obj\Debug\netcoreapp2.2\andrewwilletteGenerator.AssemblyInfoInputs.cache
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\obj\Debug\netcoreapp2.2\andrewwilletteGenerator.AssemblyInfo.cs
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\bin\Debug\netcoreapp2.2\andrewwilletteGenerator.pdb
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\obj\Debug\netcoreapp2.2\andrewwilletteGenerator.dll
+C:\Users\Andrew\git\andrewwillette.com\andrewwilletteGenerator\andrewwilletteGenerator\obj\Debug\netcoreapp2.2\andrewwilletteGenerator.pdb

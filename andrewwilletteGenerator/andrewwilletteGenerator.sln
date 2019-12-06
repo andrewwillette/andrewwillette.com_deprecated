@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "andrewwilletteGenerator", "andrewwilletteGenerator\andrewwilletteGenerator.csproj", "{8192AA55-C4D7-4A0B-BEE8-DC6F4CCC49EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Site", "Site", "{00C16B97-09E4-47B2-B342-702CC0A44D3D}"
+	ProjectSection(SolutionItems) = preProject
+		andrewwilletteGenerator\Site\index.md = andrewwilletteGenerator\Site\index.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8192AA55-C4D7-4A0B-BEE8-DC6F4CCC49EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8192AA55-C4D7-4A0B-BEE8-DC6F4CCC49EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8192AA55-C4D7-4A0B-BEE8-DC6F4CCC49EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8192AA55-C4D7-4A0B-BEE8-DC6F4CCC49EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6AFEF60-BBCA-4F0B-AAC8-CF6831456DAE}
+	EndGlobalSection
+EndGlobal

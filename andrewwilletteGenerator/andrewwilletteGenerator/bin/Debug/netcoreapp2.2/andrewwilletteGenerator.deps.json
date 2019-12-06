@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "13d59efe0549e784c275179fb3c94ae147a71f56"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "andrewwilletteGenerator/1.0.0": {
+        "dependencies": {
+          "Metalsharp": "0.9.0-rc.1"
+        },
+        "runtime": {
+          "andrewwilletteGenerator.dll": {}
+        }
+      },
+      "Markdig/0.15.4": {
+        "runtime": {
+          "lib/netstandard2.0/Markdig.dll": {
+            "assemblyVersion": "0.15.4.0",
+            "fileVersion": "0.15.4.0"
+          }
+        }
+      },
+      "Metalsharp/0.9.0-rc.1": {
+        "dependencies": {
+          "Markdig": "0.15.4",
+          "Newtonsoft.Json": "12.0.1",
+          "YamlDotNet": "5.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Metalsharp.dll": {
+            "assemblyVersion": "0.9.0.0",
+            "fileVersion": "0.9.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "YamlDotNet/5.2.1": {
+        "runtime": {
+          "lib/netstandard1.3/YamlDotNet.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "andrewwilletteGenerator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Markdig/0.15.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6nG7ZoDOvJ5dZmoTHj1EdL7MDdaScYHEazhe8vDn+oJZJlT9jTI/uebU2QZveuOfpSUMZjPRlUiifSThewm44g==",
+      "path": "markdig/0.15.4",
+      "hashPath": "markdig.0.15.4.nupkg.sha512"
+    },
+    "Metalsharp/0.9.0-rc.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5c8nX2xhtVSqt3FvZKWruWHTCvLhei7pVVFPrtvKvUZHet9wb/teiSMFuZ8uccz0Cx3cMSZxua89AJyCa2Gdkg==",
+      "path": "metalsharp/0.9.0-rc.1",
+      "hashPath": "metalsharp.0.9.0-rc.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "YamlDotNet/5.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-71SKuL5cJqLBMqsUG4CxceWxkFiNge0toopd015s+IqiIiRnnM5UygRVsVXJQM7vmGQmdWC8Cwlg312JaJLWnA==",
+      "path": "yamldotnet/5.2.1",
+      "hashPath": "yamldotnet.5.2.1.nupkg.sha512"
+    }
+  }
+}
