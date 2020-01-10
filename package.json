@@ -1,0 +1,22 @@
+{
+  "name": "andrewwillette.com",
+  "version": "1.0.0",
+  "description": "Personal website of Andrew Willette",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewwillette/andrewwillette.com.git"
+  },
+  "author": "Andrew Willette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewwillette/andrewwillette.com/issues"
+  },
+  "homepage": "https://github.com/andrewwillette/andrewwillette.com#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
+}
