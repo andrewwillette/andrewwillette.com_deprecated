@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import AudioPlayers from "./Audio/AudioPlayers.jsx";
 import HomeImage from "../../src/components/HomeImage.jsx";
+import ReactAudioPlayer from 'react-audio-player';
+
 
 
 import "./HomePage.css"
