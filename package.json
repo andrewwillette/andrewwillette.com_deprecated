@@ -24,7 +24,6 @@
     "flexboxgrid": "^6.3.1",
     "fs": "0.0.1-security",
     "react": "^16.13.1",
-    "react-audio-player": "^0.13.0",
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.21",
     "react-player": "^2.5.0",

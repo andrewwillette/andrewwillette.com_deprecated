@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactAudioPlayer from 'react-audio-player';
 import ReactPlayer from "react-player"
 import './AudioPlayer.css';
 
@@ -15,7 +14,7 @@ export default class AudioPlayer extends Component {
             className='react-player'
             config={{
               soundcloud: {
-                options: { show_user:false, download:false, show_artwork:false }
+                options: { show_user:false, show_teaser:false, color:'000000' }
               }
             }}
           />

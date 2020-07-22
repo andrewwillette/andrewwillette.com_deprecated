@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import AudioPlayers from "./Audio/AudioPlayers.jsx";
 import HomeImage from "../../src/components/HomeImage.jsx";
-import ReactAudioPlayer from 'react-audio-player';
-
-
 
 import "./HomePage.css"
 
@@ -28,5 +25,5 @@ class HomePage extends Component {
   }
 }
 
-const wrapper = document.getElementById("create-home-page");
-wrapper ? ReactDOM.render(<HomePage />, wrapper) : console.log('Failed to find create-home-page div');
+const reactContext = document.getElementById("create-home-page");
+reactContext ? ReactDOM.render(<HomePage />, reactContext) : console.log('Failed to find react context from html root.');
