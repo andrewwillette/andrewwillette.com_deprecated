@@ -14,45 +14,16 @@ export default class AudioPlayers extends Component {
     };
   }
 
-  /**
-   * Pass into all audio players on this page to insure when they are "played", other audio is paused.
-   * 
-   * @param event - event returned from react-audio-player onPlay handler, contains audio src which is being played 
-   */
-  handlePlayClick(event) {
-    var audioPlayersAudio = document.querySelectorAll('.audioPlayer audio');
-    for (var i = 0; i < audioPlayersAudio.length; i++) { 
-      if(audioPlayersAudio[i].src != event.target.src) {
-        audioPlayersAudio[i].pause();
-      }
-    } 
-  }
-
   getAudioComponent() {
 
     return (
       <React.Fragment>
         <div className="row">
           <AudioPlayer 
-            audioSource={bach_lourree}
-            songTitle={"Bach Louree"}
-            handlePlayClick={this.handlePlayClick}
+            soundcloudSource="https://soundcloud.com/user-434601011/bach-louree-c-major-partitita?color=000000"
           ></AudioPlayer>
-
           <AudioPlayer
-            class="audioPlayer"
-            audioSource={lulus_back_in_town}
-            songTitle={"Lulu's Back In Town"}
-            handlePlayClick={this.handlePlayClick}
-          ></AudioPlayer>
-        </div>
-
-        <div className="row">
-        <AudioPlayer 
-            class="audioPlayer"
-            audioSource={somewhere_over_the_rainbow}
-            songTitle={"Somewhere Over The Rainbow"}
-            handlePlayClick={this.handlePlayClick}
+            soundcloudSource="https://soundcloud.com/user-434601011/somewhere-over-the-rainbow?color=000000"
           ></AudioPlayer>
         </div>
       </React.Fragment>

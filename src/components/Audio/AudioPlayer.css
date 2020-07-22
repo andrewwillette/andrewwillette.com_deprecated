@@ -1,3 +1,7 @@
+.react-player{
+    display:inline-block
+}
+
 .audioPlayer{
-    padding:.5rem;
+    width:50%;
 }

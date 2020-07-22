@@ -1,6 +1,10 @@
 #audioPlayerWrapper {
     display:inline-block;
+    width: 100%;
 }
 .row {
     margin-top: .5rem;
+}
+.soundHeader__logo{
+    visibility: hidden;
 }
