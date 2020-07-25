@@ -6,16 +6,9 @@ import ErrorPage from "./Errors/ErrorPage.jsx"
 import { Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 
-export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-    };
-  }
+export default function App() {
 
-  render(props) {
-    const { } = this.state;
-    return (
+  return( 
     <div id="app-page">
         <h1>
           <Link to="/">Andrew Willette</Link>
@@ -29,13 +22,13 @@ export default class App extends Component {
           </li>
         </ul>
         <Switch>
-          <Route exact path='/' >
+          <Route exact path='/'>
               <HomePage></HomePage>
           </Route>
-          <Route path='/music' >
+          <Route path='/music'>
               <AudioPage></AudioPage>
           </Route>
-          <Route path='/cv' >
+          <Route path='/cv'>
               <ResumePage></ResumePage>
           </Route>
           <Route>
@@ -44,5 +37,4 @@ export default class App extends Component {
         </Switch>
     </div>
     );
-  }
 }
