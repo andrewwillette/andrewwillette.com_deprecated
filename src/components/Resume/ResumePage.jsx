@@ -15,7 +15,7 @@ export default class ResumePage extends Component {
 
         <ResumeHeader value="Technology"></ResumeHeader>
         <ResumeDetail values={["Java", "Python", "C#", "OAuth", 
-            "Rest APIs", "AWS", "React", "Ubunutu/Rhel Linux Distros"]}></ResumeDetail>
+            "Rest APIs", "AWS", "React", "Ubuntu/Rhel Linux Distros"]}></ResumeDetail>
 
         <ResumeHeader value="Education"></ResumeHeader>
         <ResumeDetail values={["University of Iowa Bachaelor's Degree Computer Science, Violin"]}></ResumeDetail>

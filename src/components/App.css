@@ -19,5 +19,6 @@ a:hover {
 }
 
 .container {
-    width: 40%;
+    width: 80%;
+    height:100vh;
 }

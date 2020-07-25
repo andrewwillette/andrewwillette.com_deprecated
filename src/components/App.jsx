@@ -13,7 +13,7 @@ export default class App extends Component {
     };
   }
 
-  render() {
+  render(props) {
     const { } = this.state;
     return (
     <div id="app-page">
@@ -29,7 +29,7 @@ export default class App extends Component {
           </li>
         </ul>
         <Switch>
-          <Route path='/' exact >
+          <Route exact path='/' >
               <HomePage></HomePage>
           </Route>
           <Route path='/music' >
@@ -46,9 +46,3 @@ export default class App extends Component {
     );
   }
 }
-
-// document.getElementById("create-home-page") ? ReactDOM.render(
-//   <BrowserRouter>
-//     <App />
-//   </BrowserRouter>
-//   , document.getElementById("create-home-page")) : console.log('Failed to find react context from html root.');
