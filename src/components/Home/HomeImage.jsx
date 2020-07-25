@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import homeImage from "../../assets/images/homepage_photo.jpg";
-
+import homeImage from "../../../assets/images/homepage_photo.jpg";
 import './HomeImage.css';
 
 export default class HomeImage extends Component {

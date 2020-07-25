@@ -1,0 +1,23 @@
+.navbar{
+    width: 50%;
+    list-style:none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5F5B1A;
+}
+
+#app-page {
+    text-align: center;
+}
+
+.container {
+    width: 40%;
+}

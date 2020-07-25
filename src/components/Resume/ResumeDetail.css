@@ -1,0 +1,12 @@
+#resume-page li {
+    list-style-type: none;
+    display: block;
+}
+
+#resume-page li .multi-line-list {
+    text-align: right;
+}
+
+#resume-page ul {
+    text-align: left;
+}
