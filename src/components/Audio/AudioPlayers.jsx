@@ -28,6 +28,9 @@ export default class AudioPlayers extends Component {
           <AudioPlayer
             soundcloudSource="https://soundcloud.com/user-434601011/not-this"
           ></AudioPlayer>
+          <AudioPlayer
+            soundcloudSource="https://soundcloud.com/user-434601011/these-foolish-things"
+          ></AudioPlayer>
         </div>
       </React.Fragment>
     );
