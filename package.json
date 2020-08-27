@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "start-api": "cd api && flask run --no-debugger"
+    "start-api": "cd api && gunicorn --bind 0.0.0.0:80 wsgi:app"
   },
   "repository": {
     "type": "git",
