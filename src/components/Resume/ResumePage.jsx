@@ -14,7 +14,7 @@ export default class ResumePage extends Component {
         <ResumeDetail values={["Cerner 2017-2020", "GOM Software International 2018-2020"]}></ResumeDetail>
 
         <ResumeHeader value="Technology"></ResumeHeader>
-        <ResumeDetail values={["Java", "Python", "C#", "OAuth", 
+        <ResumeDetail values={["Java", "Python", "C#", "OAuth 2.0", "SAML", 
             "Rest APIs", "AWS", "React", "Ubuntu/Rhel Linux Distros"]}></ResumeDetail>
 
         <ResumeHeader value="Education"></ResumeHeader>

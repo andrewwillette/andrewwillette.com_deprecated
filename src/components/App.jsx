@@ -18,7 +18,7 @@ export default function App() {
             <Link to="/music">Music</Link>
           </li>
           <li>
-            <Link to="/cv">CV</Link>
+            <Link to="/resume">Resume</Link>
           </li>
         </ul>
         <Switch>
@@ -28,7 +28,7 @@ export default function App() {
           <Route path='/music'>
               <AudioPage></AudioPage>
           </Route>
-          <Route path='/cv'>
+          <Route path='/resume'>
               <ResumePage></ResumePage>
           </Route>
           <Route>
