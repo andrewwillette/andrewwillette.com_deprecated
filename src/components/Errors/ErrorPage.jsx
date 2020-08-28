@@ -9,7 +9,7 @@ export default class ErrorPage extends Component {
 
   render() {(
         <div id="error-page">
-            You made an error.
+            404, I got nothing.
         </div>
     );
   }

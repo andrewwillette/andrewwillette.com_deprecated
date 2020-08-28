@@ -10,5 +10,8 @@ npm run build :
 npm run start :
   starts webpack dev server
 
-npm run start-api :
-  starts gunicorn prod server
+npm run start-api-dev :
+  starts gunicorn server at port 8080
+
+npm run start-api-prod :
+  starts gunicorn server at port 80

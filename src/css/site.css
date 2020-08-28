@@ -1,3 +1,80 @@
+/* navbar */
+.navbar{
+    width: 50%;
+    list-style:none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5F5B1A;
+}
+
+/* app-stylings */
+#app-page {
+    text-align: center;
+}
+
 .container {
-    width: 60%;
+    width: 80%;
+    height:100vh;
+}
+
+/* Home Page */
+#homeImageWrapper {
+    display:inline-block;
+}
+
+#andrew_photo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height:40%;
+    width:40%;
+}
+
+.card-paragraph {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* resume page */
+.resume-header {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+#resume-page li {
+    list-style-type: none;
+    display: block;
+    margin: .2rem;
+}
+
+#resume-page ul {
+    text-align: left;
+}
+
+/* Audio components */
+.react-player {
+    display:inline-block;
+}
+
+.audioPlayer {
+    width:50%;
+}
+
+#audioPlayerWrapper {
+    display:inline-block;
+    width: 100%;
+}
+.row {
+    margin-top: .5rem;
+}
+
+.soundHeader__logo {
+    visibility: hidden;
 }

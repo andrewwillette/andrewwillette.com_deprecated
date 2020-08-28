@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 import AudioPlayer from "./AudioPlayer.jsx";
 
-import './AudioPlayers.css';
-
 export default class AudioPlayers extends Component {
   constructor() {
     super();

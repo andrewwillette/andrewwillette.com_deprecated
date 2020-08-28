@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player"
-import './AudioPlayer.css';
 
 export default class AudioPlayer extends Component {
   render() {
@@ -9,7 +8,7 @@ export default class AudioPlayer extends Component {
             <h5>{this.props.songTitle}</h5>
           <ReactPlayer
             url = {this.props.soundcloudSource}
-            width='90%'
+            width='90%' // wish I didn't have to put styling here but doesn't work in css, hacky sheee with this soundcloud widget
             height='50%'
             className='react-player'
             config={{

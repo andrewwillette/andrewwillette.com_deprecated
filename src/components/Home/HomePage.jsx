@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import HomeImage from "./HomeImage.jsx";
 
-import "./HomePage.css"
-
 export default class HomePage extends Component {
   constructor() {
     super();

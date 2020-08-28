@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import HomePage from "./Home/HomePage.jsx";
 import AudioPage from "./Audio/AudioPage.jsx";
 import ResumePage from "./Resume/ResumePage.jsx";
 import ErrorPage from "./Errors/ErrorPage.jsx"
 import { Route, Switch, Link } from 'react-router-dom';
-import './App.css';
+import "../css/site.css";
 
 export default function App() {
 

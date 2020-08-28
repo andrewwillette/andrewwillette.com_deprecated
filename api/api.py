@@ -15,6 +15,12 @@ def get_music():
 def get_cv():
     return app.send_static_file('index.html')
 
-@app.route('/*')
-def get_404():
-    return app.send_static_file('index.html')
+def get_404(e):
+    return '404, I got nothing.'
+
+def get_500(e):
+    return '500, internal server error. Sorry.'
+
+app.register_error_handler(404, get_404)
+
+app.register_error_handler(500, get_500)
