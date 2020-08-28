@@ -8,8 +8,7 @@ errorlog_location = './logs/error_log.txt'
 
 for location in [accesslog_location, errorlog_location]:
     if not os.path.exists(location):
-        f = open(location,'w+')
-        f.close()
+        open(location,'w').close()
 
 accesslog = accesslog_location
 errorlog = errorlog_location
