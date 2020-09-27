@@ -1,7 +1,15 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 module.exports = {
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: true
+  },
+  entry: {
+    main: './src/index.js'
+  },
+  output: {
+    filename: '[name].[contentHash].bundle.js'
   },
   module: {
     rules: [
@@ -38,6 +46,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: "./src/index.html",
       filename: "./index.html"
-    })
+    }),
+    new BundleAnalyzerPlugin()
   ]
 };

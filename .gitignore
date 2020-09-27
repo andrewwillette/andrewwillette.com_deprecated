@@ -1,7 +1,10 @@
 .DS_Store
 .vscode/
 node_modules/
+node_modules/*
+node_modules/*/*
 dist/
 dist/*
 __pycache__/
 api/logs/*
+*.py[cod]
