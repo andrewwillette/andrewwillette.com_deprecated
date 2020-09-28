@@ -61,14 +61,13 @@ a:hover {
 /* Audio components */
 .react-player {
     display:inline-block;
-    /* height: 80%;
-    width: 70%; */
 }
 
 #audioPlayerWrapper {
     display:inline-block;
     width: 100%;
 }
+
 .row {
     margin-top: .5rem;
 }
