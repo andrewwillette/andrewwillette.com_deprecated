@@ -31,15 +31,27 @@ export default class AudioPlayers extends Component {
         <div className="row">
           <div className="col-md">
             <AudioPlayer
-              soundcloudSource="https://soundcloud.com/user-434601011/not-this?show_teaser=false"
+              soundcloudSource="https://soundcloud.com/user-434601011/there-will-never-be-another-you-take3?show_teaser=false"
             ></AudioPlayer>
           </div>
           <div className="col-md">
             <AudioPlayer
-              soundcloudSource="https://soundcloud.com/user-434601011/these-foolish-things?show_teaser=false"
+                soundcloudSource="https://soundcloud.com/user-434601011/capri?show_teaser=false"
             ></AudioPlayer>
           </div>
         </div>
+        <div className="row">
+            <div className="col-md">
+                <AudioPlayer
+                soundcloudSource="https://soundcloud.com/user-434601011/these-foolish-things?show_teaser=false"
+                ></AudioPlayer>
+            </div>
+            <div className="col-md">
+                {/* <AudioPlayer
+                soundcloudSource="https://soundcloud.com/user-434601011/these-foolish-things?show_teaser=false"
+                ></AudioPlayer> */}
+            </div>
+          </div>
       </React.Fragment>
     );
   }
