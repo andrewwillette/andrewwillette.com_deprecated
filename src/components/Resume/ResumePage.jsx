@@ -12,17 +12,17 @@ export default class ResumePage extends Component {
         <h3 className="resume-header">
             Employment
         </h3>
-        <ul>
+        <ul id="resume-employment">
             <li>
-                Cerner 2017-2020
+                Cerner <text>2017-2020</text>
                 <ul>
                     <li>
-                        Software Engineer - Cloud Identity Access and Management (Cloud IAM)
+                        Software Engineer - Cloud Identity and Access Management (Cloud IAM)
                     </li>
                 </ul>
             </li>
             <li>
-                GOM Software International 2018-2020
+                GOM Software International <text>2018-2020</text>
                 <ul>
                     <li>
                         Software Engineer - Agricultural Feeding Division
@@ -30,7 +30,7 @@ export default class ResumePage extends Component {
                 </ul>
             </li>
             <li>
-                Fiddling Technologies 2017-2020
+                Fiddling Technologies LLC <text>2017-2020</text>
                 <ul>
                     <li>
                         President
@@ -47,13 +47,19 @@ export default class ResumePage extends Component {
                 Java
                 <ul>
                     <li>
-                        Full Stack Apache Maven/Java Spring development for security token (OAuth, SAML) cloud services.
+                        Full Stack Apache Maven/Java Spring development for security token (OAuth1, OAuth2, SAML) cloud services
                     </li>
                     <li>
-                        Extensive JUnit and Spock(groovy) testing experience on REST APIs and individual components.
+                        Extensive JUnit and Spock(groovy) testing on REST APIs and individual components
                     </li>
                     <li>
-                        SQL: Oracle DB Schema extension and modification for account management approval, including backend Hibernate changes
+                        SQL: Oracle DB Schema extension and modification for System Account Management creation and maintenance
+                    </li>
+                    <li>
+                        Apache Tomcat
+                    </li>
+                    <li>
+                        Jakarta Server Pages(JSP) front ends
                     </li>
                 </ul>
             </li>
@@ -61,13 +67,13 @@ export default class ResumePage extends Component {
                 Javascript
                 <ul>
                     <li>
-                        Member of team which designed/built a React Single-Page-Application for purposes of a single destination for all Cerner's identity providers/clients to login into a Single-Sign-On session.
+                        Worked in team which designed/implemented a React Single-Page-Application(SPA) for purposes of a single destination for all Cerner's identity providers/clients to login into a Single-Sign-On session
                     </li>
                     <li>
-                        Extensive testing experience in the npm environment (mocha, jest, chai, jasmine, enzyme).
+                        Extensive testing experience in the npm environment (mocha, jest, chai, jasmine, enzyme)
                     </li>
                     <li>
-                        Implemented front-end Typescript library for managing service calls in SSO login process, consumed by both Cloud IAM team and all Cerner web-based applications that want to integrate with our SSO solutions.
+                        Implemented front-end Typescript library for managing service calls in SSO login process, consumed by both Cloud IAM team and all Cerner web-based applications that want to integrate with our SSO solutions
                     </li>
                 </ul>
             </li>
@@ -75,13 +81,16 @@ export default class ResumePage extends Component {
                 AWS
                 <ul>
                     <li>
-                        Wrote/modified personalized terraform configurations for individual cloud deployments.
+                        Handle personalized Terraform configurations for individual cloud deployments
                     </li>
                     <li>
-                        Deployed Jenkins into AWS with custom written groovy scripts to allow all slaves to be EC2 deployed.
+                        Deployed Jenkins master and slaves into AWS with custom jobs managed via Jenkins groovy APIs
                     </li>
                     <li>
-                        Custom AMI's for all solutions managed via Chef.
+                        Custom AMI's for all solutions managed via Packer/Chef
+                    </li>
+                    <li>
+                        Strong familiarity with AWS billing practices
                     </li>
                 </ul>
             </li>
@@ -89,13 +98,16 @@ export default class ResumePage extends Component {
                 C#
                 <ul>
                     <li>
-                        Full stack .Net Core development for agricultural feeding customization.
+                        Full stack .NET Core development for agricultural feeding customization
                     </li>
                     <li>
-                        Razor front end implementations with knockout.js for UI work.
+                        Razor front end implementations with knockout.js
                     </li>
                     <li>
-                        Implemented Braintree online payment system for the application, collecting credit and debit cards.
+                        Implemented Braintree online payment system collecting credit and debit cards for scheduled payment processing
+                    </li>
+                    <li>
+                        SQL Server Schema design and implementation for feeding application management (Rations, Ration Reports, Ration Ingredients, Consultants, Producers)
                     </li>
                 </ul>
             </li>
@@ -107,6 +119,32 @@ export default class ResumePage extends Component {
                     </li>
                     <li>
                         Personal website sits on top of flask / gunicorn backend.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Miscellaneous
+                <ul>
+                    <li>
+                        Linux (Rhel, Ubuntu)
+                    </li>
+                    <li>
+                        Bash
+                    </li>
+                    <li>
+                        IntelliJ Eclipse/Rider, Vim, Visual Studio
+                    </li>
+                    <li>
+                        HIPPA
+                    </li>
+                    <li>
+                        New Relic One
+                    </li>
+                    <li>
+                        GraphQL
+                    </li>
+                    <li>
+                        Wireshark
                     </li>
                 </ul>
             </li>
