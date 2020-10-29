@@ -54,6 +54,9 @@ a:hover {
     margin: .2rem;
 }
 
+#resume-employment li text {
+    float: right;
+}
 #resume-page ul {
     text-align: left;
 }
