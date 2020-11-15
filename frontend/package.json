@@ -5,10 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack --mode production",
-    "start": "./node_modules/.bin/webpack-dev-server --open --mode development",
-    "start-api-prod": "cd ../api && gunicorn --bind 0.0.0.0:80 wsgi:app",
-    "start-api-dev": "cd ../api && gunicorn --bind 0.0.0.0:8080 --log-level info wsgi:app"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
