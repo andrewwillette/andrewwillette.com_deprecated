@@ -14,6 +14,18 @@ export default class AudioPlayers extends Component {
     return (
       <React.Fragment>
         <div className="row">
+              <div className="col-md">
+                  <AudioPlayer
+                      soundcloudSource="https://soundcloud.com/user-434601011/billy-on-the-lowground?show_teaser=false"
+                  />
+              </div>
+              <div className="col-md">
+                  <AudioPlayer
+                      soundcloudSource="https://soundcloud.com/user-434601011/leave-it?show_teaser=false"
+                  />
+              </div>
+        </div>
+        <div className="row">
           <div className="col-md">
             <div>
             <AudioPlayer
@@ -52,13 +64,7 @@ export default class AudioPlayers extends Component {
                 />
             </div>
           </div>
-          <div className="row">
-              <div className="col-md">
-                  <AudioPlayer
-                      soundcloudSource="https://soundcloud.com/user-434601011/billy-on-the-lowground?show_teaser=false"
-                  />
-              </div>
-          </div>
+          
       </React.Fragment>
     );
   }
