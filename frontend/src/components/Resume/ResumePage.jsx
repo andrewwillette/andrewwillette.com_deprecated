@@ -14,10 +14,10 @@ export default class ResumePage extends Component {
         </h3>
         <ul id="resume-employment">
             <li>
-                Cerner <text>2017-2020</text>
+                Cerner <text>2017-2021</text>
                 <ul>
                     <li>
-                        Software Engineer - Cloud Identity and Access Management (Cloud IAM)
+                        Associate Senior Software Engineer - Cloud Identity and Access Management (Cloud IAM)
                     </li>
                 </ul>
             </li>
@@ -25,12 +25,12 @@ export default class ResumePage extends Component {
                 GOM Software International <text>2018-2020</text>
                 <ul>
                     <li>
-                        Software Engineer - Agricultural Feeding Division
+                        Software Engineer - Agricultural Feeding
                     </li>
                 </ul>
             </li>
             <li>
-                Fiddling Technologies LLC <text>2017-2020</text>
+                Fiddling Technologies<text>2017-2021</text>
                 <ul>
                     <li>
                         President
@@ -38,28 +38,18 @@ export default class ResumePage extends Component {
                 </ul>
             </li>
         </ul>
-
         <h3 className="resume-header">
-            Technology
+            Experience
         </h3>
         <ul>
             <li>
                 Java
                 <ul>
                     <li>
-                        Full Stack Apache Maven/Java Spring development for security token (OAuth1, OAuth2, SAML) cloud services
+                        Built and extended java web services such as Cerner's enterprise user-roster, authorization-server, and single-sign-on services.
                     </li>
                     <li>
-                        Extensive JUnit and Spock(groovy) testing on REST APIs and individual components
-                    </li>
-                    <li>
-                        SQL: Oracle DB Schema extension and modification for System Account Management creation and maintenance
-                    </li>
-                    <li>
-                        Apache Tomcat
-                    </li>
-                    <li>
-                        Jakarta Server Pages(JSP) front ends
+                        Common tools I use include Apache Maven, Java Spring, JAXRS, HK2, Hibernate, OracleDB, JSP, JUnit, Spock (groovy testing framework).
                     </li>
                 </ul>
             </li>
@@ -67,13 +57,16 @@ export default class ResumePage extends Component {
                 Javascript
                 <ul>
                     <li>
-                        Worked in team which designed/implemented a React Single-Page-Application(SPA) for purposes of a single destination for all Cerner's identity providers/clients to login into a Single-Sign-On session
+                        Built React frontends for sites supporting identity-access services, such as logging into identity providers and managing user sessions.
                     </li>
                     <li>
-                        Extensive testing experience in the npm environment (mocha, jest, chai, jasmine, enzyme)
+                        Implemented front-end Typescript library for managing service calls in SSO login process, consumed by both Cloud IAM team and all Cerner web-based applications.
                     </li>
                     <li>
-                        Implemented front-end Typescript library for managing service calls in SSO login process, consumed by both Cloud IAM team and all Cerner web-based applications that want to integrate with our SSO solutions
+                        Extensive testing experience in the npm environment (mocha, jest, chai, jasmine, enzyme).
+                    </li>
+                    <li>
+                        Experienced with C# Razor front ends consuming knockout.js for client updating.
                     </li>
                 </ul>
             </li>
@@ -81,16 +74,17 @@ export default class ResumePage extends Component {
                 AWS
                 <ul>
                     <li>
-                        Handle personalized Terraform configurations for individual cloud deployments
+                        Experience writing and managing Terraform configurations for different cloud environments. This includes EC2 instances, load balancers, target groups, and security groups.
                     </li>
                     <li>
-                        Deployed Jenkins master and slaves into AWS with custom jobs managed via Jenkins groovy APIs
+                        Experience writing and managing Packer configurations for custom, per-service AMIs.
                     </li>
                     <li>
-                        Custom AMI's for all solutions managed via Packer/Chef
+                        
+                        Deployed Jenkins master and slaves into AWS with custom jobs managed via Jenkins groovy APIs.
                     </li>
                     <li>
-                        Strong familiarity with AWS billing practices
+                        Strong familiarity with AWS billing practices.
                     </li>
                 </ul>
             </li>
@@ -98,27 +92,13 @@ export default class ResumePage extends Component {
                 C#
                 <ul>
                     <li>
-                        Full stack .NET Core development for agricultural feeding customization
+                        Built full .NET Core web application for agricultural feeding customization.
                     </li>
                     <li>
-                        Razor front end implementations with knockout.js
+                        Implemented Braintree online payment system collecting credit and debit cards for scheduled payment processing.
                     </li>
                     <li>
-                        Implemented Braintree online payment system collecting credit and debit cards for scheduled payment processing
-                    </li>
-                    <li>
-                        SQL Server Schema design and implementation for feeding application management (Rations, Ration Reports, Ration Ingredients, Consultants, Producers)
-                    </li>
-                </ul>
-            </li>
-            <li>
-                Python
-                <ul>
-                    <li>
-                        Implemented algorithmic trading engine using data from alpaca library, with visualization using numpy and panda.
-                    </li>
-                    <li>
-                        Personal website sits on top of flask / gunicorn backend.
+                        SQL Server Schema design and implementation for feeding application management (Rations, Ration Reports, Ration Ingredients, Consultants, Producers).
                     </li>
                 </ul>
             </li>
@@ -129,16 +109,13 @@ export default class ResumePage extends Component {
                         Linux (Rhel, Ubuntu)
                     </li>
                     <li>
-                        Bash
+                        Bash, Python
                     </li>
                     <li>
-                        IntelliJ Eclipse/Rider, Vim, Visual Studio
+                        IntelliJ Idea, Visual Studio, Vim
                     </li>
                     <li>
-                        HIPPA
-                    </li>
-                    <li>
-                        New Relic One
+                        New Relic
                     </li>
                     <li>
                         GraphQL
@@ -151,14 +128,14 @@ export default class ResumePage extends Component {
         </ul>
 
         <h3 className="resume-header">
-            Education: University of Iowa, 2014 - 2018
+            Education: University of Iowa, 2018
         </h3>
         <ul>
             <li>
-                Bachaelor of Arts Degree - Computer Science
+                Bachelor of Arts Degree - Computer Science
             </li>
             <li>
-                Bachaelor of Arts Degree - Violin Performance
+                Bachelor of Arts Degree - Violin Performance
             </li>
         </ul>
     </div>
