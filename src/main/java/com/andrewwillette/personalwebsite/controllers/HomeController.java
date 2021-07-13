@@ -33,13 +33,4 @@ class HomeController {
         return "index";
     }
 
-    //TODO: Burn this
-    @RequestMapping(value="/test")
-    public Object test() throws JsonProcessingException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        HashMap jsonObject = new HashMap<>();
-        jsonObject.put("samplekey", "sampleValue");
-        Object toReturn = objectMapper.writeValueAsString(jsonObject);
-        return toReturn;
-    }
 }
